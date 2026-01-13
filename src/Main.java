@@ -63,8 +63,14 @@ c4.color= "Brown";
 c4.eat();
 c4.bark();
 c4.sleep();
+System.out.println("===============================================");
+Assess_Modifier A = new Assess_Modifier();
+A.Register("CheavSarin", "cheavsarin@gmail.com","Students","sarin123");
+A.GetInfo();
+
 
     }
+
 }
 
 // Getting Start Java Programming
