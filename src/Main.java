@@ -67,6 +67,39 @@ System.out.println("===============================================");
 Assess_Modifier A = new Assess_Modifier();
 A.Register("CheavSarin", "cheavsarin@gmail.com","Students","sarin123");
 A.GetInfo();
+        System.out.println("===============================================");
+        System.out.println("===============================================");
+        System.out.println("===============================================");
+// Method Overloading
+Overloading O = new Overloading();
+int sum = O.multiple(20,20);
+System.out.print("This is your Toatal Sum:"+sum);
+int sum1 = O.multiple(30,30,30);
+System.out.println("This is your Taotal Sum1:"+sum1);
+        System.out.println("===============================================");
+        System.out.println("===============================================");
+        System.out.println("===============================================");
+        System.out.println("===============================================");
+
+
+/// Dynamic polymorphism ---> override method
+
+        /// Vehicle chile and Polymorphism parent   .
+        //Parant can create object child so parent can as a child
+        // so this is call Polymorphism
+        Vehicle vehicle = new Polymorphism();
+        vehicle.getInfo();
+        vehicle.getInfo("Sarin");
+        vehicle.getInfo(2);
+        System.out.println("===============================================");
+        vehicle.getInfo("Sarin Oveloading ");
+        System.out.println("++++++++++++++++++++++++++++++++++++++++++++++=");
+
+        // Static polymorphism --> method overloading
+        Vehicle V = new Vehicle();
+        V.getInfo();
+        V.getInfo("CheavSarin");
+        V.getInfo(2);
 
 
     }
